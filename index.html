@@ -6,30 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: sans-serif;
-            background: #faf6ee;
+            font-family: 'Segoe UI', sans-serif;
+            background: #eaf6fb;
             margin: 0;
             padding: 0;
         }
         header {
-            background: #3a2213;
-            color: #fff5db;
+            background: #236086;
+            color: #e0f7fa;
             padding: 2rem 1rem;
             text-align: center;
         }
         main {
-            max-width: 600px;
+            max-width: 700px;
             margin: 2rem auto;
-            background: #fffbea;
-            border-radius: 8px;
-            box-shadow: 0 2px 12px #b89d62a0;
+            background: #fafdff;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px #6ac1c9a0;
             padding: 2rem;
+        }
+        section {
+            margin-top: 2rem;
+        }
+        h1, h2, h3 {
+            color: #236086;
+        }
+        ul {
+            background: #e0f7fa;
+            border-radius: 8px;
+            padding: 1rem;
         }
         footer {
             text-align: center;
-            color: #7a6e46;
+            color: #4099d5;
             padding: 1rem 0;
             font-size: 0.95rem;
+        }
+        .video-embed {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2rem 0;
+        }
+        .video-embed iframe {
+            border: none;
+            border-radius: 8px;
+            max-width: 100%;
         }
     </style>
 </head>
@@ -49,6 +71,12 @@
             <li>There are over 12,000 species of ants worldwide.</li>
             <li>Some ants have super-long lifespans, living up to 30 years!</li>
         </ul>
+        <section class="video-embed">
+            <h2>Featured Video</h2>
+            <!-- Replace the YouTube URL below with your preferred video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=SVeMHqWQ8og" allowfullscreen></iframe>
+            <p><em>Watch a fascinating look inside an ant colony!</em></p>
+        </section>
     </main>
     <footer>
         &copy; 2025 House of Ants.org
